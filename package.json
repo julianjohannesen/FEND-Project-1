@@ -1,0 +1,29 @@
+{
+  "name": "fend-project-1",
+  "version": "1.0.0",
+  "description": "A simple, but full responsive portfolio site.",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julianjohannesen/FEND-Project-1.git"
+  },
+  "keywords": [
+    "portfolio",
+    "Udacity",
+    "FEND",
+    "GwG",
+    "ND"
+  ],
+  "author": "Julian <Julian.Johannesen@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/julianjohannesen/FEND-Project-1/issues"
+  },
+  "homepage": "https://github.com/julianjohannesen/FEND-Project-1#readme"
+}
