@@ -1,0 +1,15 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Julian Johannesen -- author -- @jjeadon
+
+# THANKS
+
+    [HTML5 Boilerplate Project](https://html5boilerplate.com/)
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    Apache Server Configs, jQuery, Modernizr, Normalize.css
