@@ -13,6 +13,12 @@
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+
+  <script>
+    // Picture element HTML5 shiv
+    document.createElement("picture");
+
+  </script>
 </head>
 
 <body>
@@ -20,138 +26,141 @@
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
 
-<div class="wrapper">  
-<section class="header">
-  <span class="logo">JJ</span>
-  <h1>Julian Johannesen</h1>
-  <h2>Front-End Ninja</h2>
-  <hr>
-  <picture>
-    <source
-      media="(min-width: 800px)"
-      srcset="img/mountains-800_large_1x.jpg 800w,
-              img/mountains-1600_large_2x.jpg 1600w">
-    <source
-      media="(min-width: 500px)"
-      srcset="img/mountains-800_med_1x.jpg 400w,
-              img/mountains-800_med_2x.jpg 800w">
-    <img
-      src="img/mountains-800_large_1x.jpg" alt="A panoramic view of a forest and mountain range"
-      srcset="img/mountains-800_large_1x.jpg 800w,
-              img/mountains-1600_large_2x.jpg 1600w">
-  </picture>
-</section>
+  <div class="wrapper">
 
-<section class="nav">
-  <nav class="hamburger"><a href="#" title="hamburger menu" class="visuallyhidden">Hamburger Menu</a></nav>
-    <nav id="drawer" class="nav">
-      <ul class="nav__list">
-        <li class="nav__item"><a href="#">News</a></li>
-        <li class="nav__item"><a href="#">Events</a></li>
-        <li class="nav__item"><a href="#">Culture</a></li>
-        <li class="nav__item"><a href="#">Blog</a></li>
+    <header class="header">
+      <div class="logo">
+        <img src="img/fixed/Scrabble_letter_J.svg" alt="Scrabble letter J">
+        <img src="img/fixed/Scrabble_letter_J.svg" alt="Scrabble letter J">
+      </div>
+      <h1>Julian Johannesen</h1>
+      <h2>Front-End Ninja</h2>
+      <hr>
+
+      <nav class="hamburger">
+        <a href="#" title="hamburger menu"></a>
+      </nav>
+      <nav id="drawer" class="nav">
+        <ul class="nav_list">
+          <li class="nav_item">
+            <a href="#">Projects</a>
+          </li>
+          <li class="nav_item">
+            <a href="#">Blog</a>
+          </li>
+          <li class="nav_item">
+            <a href="#">About</a>
+          </li>
+          <li class="nav_item">
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <picture class="hero">
+        <source media="(min-width: 800px)" srcset="img/mountains-800_large_1x.jpg 800w, img/mountains-1600_large_2x.jpg 1600w">
+        <source media="(max-width: 500px)" srcset="img/mountains-800_med_1x.jpg 400w, img/mountains-800_med_2x.jpg 800w">
+        <img src="img/mountains-400_med_1x.jpg" alt="A panoramic view of a lake, forest, and mountain range" srcset="img/mountains-400_med_1x.jpg 400w, img/mountains-800_med_2x.jpg 800w">
+      </picture>
+    </header>
+
+    <div class="inner-wrapper">
+
+      <section class="quote">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis architecto dolorem labore id. Ea sit officia
+          perferendis, sapiente iste, earum pariatur similique impedit doloribus consequuntur eveniet debitis nobis, eius
+          eaque.
+        </p>
+      </section>
+
+      <section class="featured">
+        <h2>Featured Work</h2>
+
+        <figure class="feature1">
+          <picture>
+            <source media="(min-width: 800px)" srcset="img/tracks-800_large_1x.jpg 800w,
+              img/tracks-1600_large_2x.jpg 1600w">
+            <source media="(max-width: 500px)" srcset="img/tracks-800_med_1x.jpg 400w,
+              img/tracks-800_med_2x.jpg 800w">
+            <img src="img/tracks-400_med_1x.jpg" alt="" srcset="img/tracks-400_med_1x.jpg 400w,
+              img/tracks-800_med_2x.jpg 800w">
+          </picture>
+          <figcaption>Find My Forest</figcaption>
+        </figure>
+
+        <figure class="feature2">
+          <picture>
+            <source media="(min-width: 800px)" srcset="img/duck-1600_large_2x.jpg 1600w,
+      img/duck-800_large_1x.jpg 800w">
+            <source media="(max-width: 500px)" srcset="img/duck-800_med_2x.jpg 800w,
+              img/duck-400_med_1x.jpg 400w">
+            <img src="img/duck-400_med_1x.jpg" alt="Duck sitting on pond" srcset="img/duck-400_med_1x.jpg 400w,
+              img/duck-800_med_2x.jpg 800w">
+          </picture>
+          <figcaption>Find My Duck</figcaption>
+        </figure>
+
+        <figure class="feature3">
+          <picture>
+            <source media="(min-width: 800px)" srcset="img/tree-1600_large_2x.jpg 1600w,
+              img/tree-800_large_1x.jpg 800w">
+            <source media="(max-width: 500px)" srcset="img/tree-800_med_2x.jpg 800w,
+      img/tree-400_med_1x.jpg 400w">
+            <img src="img/tree-400_med_1x.jpg" alt="" srcset="img/tree-400_med_1x.jpg 400w,
+              img/tree-800_med_2x.jpg 800w">
+          </picture>
+          <figcaption>Find My Tree</figcaption>
+        </figure>
+
+      </section>
+
+      <section class="blog">
+
+      </section>
+
+    </div>
+
+    <footer>
+      <ul class="social">
+        <li>
+          <a href="#" class="entypo-github">GitHub</a>
+        </li>
+        <li>
+          <a href="#" class="entypo-twitter">Twitter</a>
+        </li>
+        <li>
+          <a href="#" class="entypo-linkedin">LinkedIn</a>
+        </li>
       </ul>
-    </nav>
+    </footer>
 
-</section>
+  </div>
 
-<div class="inner-wraper">
-<section class="quote">
-  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis architecto dolorem labore id. Ea sit officia perferendis, sapiente iste, earum pariatur similique impedit doloribus consequuntur eveniet debitis nobis, eius eaque.</p>
-</section>
-
-<section class="featured">
-  <h2>Featured Work</h2>
-
-<figure class="feature1">
-  <picture>
-    <source
-      media="(min-width: 800px)"
-      srcset="img/track-800_large_1x.jpg 800w,
-              img/track-1600_large_2x.jpg 1600w">
-    <source
-      media="(min-width: 500px)"
-      srcset="img/track-800_med_1x.jpg 400w,
-              img/track-800_med_2x.jpg 800w">
-    <img
-      src="img/track-800_large_1x.jpg" alt=""
-      srcset="img/track-800_large_1x.jpg 800w,
-              img/track-1600_large_2x.jpg 1600w">
-  </picture>
-  <figcaption>Find My Forest</figcaption>
-</figure>
-
-<figure class="feature2">
-  <picture>
-    <source
-      media="(min-width: 800px)"
-      srcset="img/duck-1600_large_2x 1600w,
-      img/duck-800_large_1x 800w">
-    <source
-      media="(min-width: 500px)"
-      srcset="img/duck-800_med_2x 800w,
-              img/duck-400_med_1x 400w">
-    <img
-      src="img/duck-800_large_1x.jpg" alt="Duck sitting on pond"
-      srcset="img/duck-800_large_1x.jpg 800w,
-              img/duck-1600_large_2x.jpg 1600w">
-  </picture>
-  <figcaption>Find My Duck</figcaption>
-</figure>
-
-<figure class="feature3">
-  <picture>
-    <source
-      media="(min-width: 800px)"
-      srcset="img/tree-1600_large_2x 1600w,
-              img/tree-800_large_1x 800w">
-    <source
-      media="(min-width: 500px)"
-      srcset="img/tree-800_med_2x 800w,
-      img/tree-400_med_1x 400w">
-    <img
-      src="img/tree-800_large_1x.jpg" alt=""
-      srcset="img/tree-800_large_1x.jpg 800w,
-              img/tree-1600_large_2x.jpg 1600w">
-  </picture>
-  <figcaption>Find My Tree</figcaption>
-</figure>
-
-</section>
-
-<section class="blog">
-
-</section>
-
-</div>
-
-<footer>
-  <ul class="social">
-    <li><a href="#" class="entypo-github">GitHub</a></li>
-    <li class=""><a href="#" class="entypo-twitter">Twitter</a></li>
-    <li class=""><a href="#" class="entypo-facebook">Facebook</a></li>
-  </ul>
-</footer>
-
-</div>
-  
   <!--***** SCRIPTS *****-->
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
-  <!-- Picture element polyfill -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
   <script>
-    // Picture element HTML5 shiv
-    document.createElement( "picture" );
+    window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')
+
   </script>
+
+  <!-- Picture element polyfill -->
   <script src="js/vendor/picturefill.js" async></script>
+
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
 
   <!-- Google Analytics -->
   <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
+    window.ga = function () {
+      ga.q.push(arguments)
+    };
+    ga.q = [];
+    ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto');
+    ga('send', 'pageview')
+
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async defer></script>
 </body>
