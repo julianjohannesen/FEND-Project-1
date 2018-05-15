@@ -2,23 +2,27 @@
 
 This simple, static portfolio site uses a combination of techniques, including media queries and responsive images, to provide a seemless user experience on a variety of devices, screen sizes, and pixel densities.
 
-TECHNOLOGY
+## TECHNOLOGY
 
-This site uses Paul Irish's [HTML5 Boilerplate](https://html5boilerplate.com/) as a starter template. Boilerplate provides  
+This site uses Paul Irish's [HTML5 Boilerplate](https://html5boilerplate.com/) as a starter template. Boilerplate provides a site "skeleton" with HTML, CSS, and other files. 
 
 In addition to providing "boilerplate" starter files, Boilerplate uses [jQuery](https://jquery.org/) and a custom build of the [Modernizr](https://modernizr.com/) feature detection library. It also uses [Normalize.css](https://necolas.github.io/normalize.css/) with additional base styles and helpers.
 
 The site uses [Picturefill.js](http://scottjehl.github.io/picturefill/) to provide polyfill support for the picture and source elements and srcset and sizes attributes. 
 
-BUG REPORTING
+## BUG REPORTING
 
 Please report any bugs or other issues on the [issues page](https://github.com/julianjohannesen/FEND-Project-1/issues) of the GitHub repository.
 
-AUTHOR
+## AUTHOR
 
-LICENSE
+Julian Johannesen - julianjohannesen on GitHub - @jjeadon on Twitter
 
-ACKNOWLEDGEMENTS
+## LICENSE
+
+Refer to LICENSE.txt.
+
+## ACKNOWLEDGEMENTS
 
 This template was completed to fufill a requirement of Udacity's Front-End Web Developement Nanodgree program and relied heavily on Udacity's responsive design curriculum. Many thanks to Udacity.
 

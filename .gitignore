@@ -3,4 +3,5 @@ node_modules/
 
 # Ignore the source directory
 src/
+doc/
 
