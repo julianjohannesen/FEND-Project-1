@@ -339,6 +339,7 @@ a:hover {
       }
       .header h1 {
         font-size: 1.2em;
+        width: 90%;
       }
 }
 
@@ -378,6 +379,7 @@ a:hover {
     height: 100%;
     position: absolute;
     right: 0;
+    top: 4em;
     transform: translate(150px, 0);
     transition: transform .3s ease;
     z-index: 1;
@@ -392,6 +394,12 @@ a:hover {
   }
   .social li a {
     font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .nav a {
+    padding: 1.1em;
   }
 }
 
@@ -416,6 +424,14 @@ a:hover {
   }
   .header h2 {
     font-size: 1.3em;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .wrapper {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
