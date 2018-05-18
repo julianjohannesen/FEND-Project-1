@@ -259,13 +259,24 @@ figcaption {
    footer {
     background: black;
     color: white;
-    height: 20em;
     width: 100%;
     margin-top: 3em;
-    padding: 2em;
-    display: flex;
-    flex-wrap: wrap;
+    padding: 1.5em;
    }
+
+   footer ul {
+     margin: 0;
+     padding: .5em 0;
+   }
+
+   footer li {
+    display: inline-block;
+    margin-right: 1em;
+  }
+
+  .copyright {
+    padding: .5em 0;
+  }
 
 /* Entypo Font Icons */
 
@@ -274,33 +285,9 @@ figcaption {
   margin-right: .5em;
 }
 
-.social {
-  margin: 1em auto;
-  text-align: left;
-  width: calc((100% - 8em)/3);
-}
-
-.social li {
-  display: inline-block;
-  margin: 0 1em;
-}
-
 .social li a {
-  font-size: 2em;
+  font-size: 1em;
 }
-
-.copyright {
-  width: calc((100% - 8em)/3);
-}
-
-.site-info {
-  width:  calc((100% - 8em)/3);
-}
-
-/* .social li a span {
-    display:block;
-    text-indent: -9999px;
-  } */
 
 /* ==========================================================================
    Helper classes

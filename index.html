@@ -60,12 +60,15 @@
         </ul>
       </nav>
 
-      <picture class="hero">
-        <source media="(min-width: 800px)" sizes=""
-            srcset="img/mountains-800_large_1x.jpg 800w, img/mountains-1600_large_2x.jpg 1600w">
-        <source media="(max-width: 500px)" sizes="" srcset="img/mountains-800_med_1x.jpg 400w, img/mountains-800_med_2x.jpg 800w">
-        <img src="img/mountains-400_med_1x.jpg" alt="A panoramic view of a lake, forest, and mountain range" sizes="" srcset="img/mountains-400_med_1x.jpg 400w, img/mountains-800_med_2x.jpg 800w">
-      </picture>
+      <img class="hero" 
+        src="img/mountains-400_med_1x.jpg" 
+        alt="A panoramic view of a lake, forest, and mountain range" 
+        sizes="100vw" 
+        srcset="img/mountains-400_med_1x.jpg 400w,
+                img/mountains-800_med_2x.jpg 800w,
+                img/mountains-800_large_1x.jpg 800w,
+                img/mountains-1600_large_2x.jpg 1600w"
+      />
     </header>
 
     <main class="inner-wrapper">
@@ -83,7 +86,7 @@
         <figure class="feature1">
           <img src="img/tracks-400_med_1x.jpg" 
                 alt="Old, unused rail tracks in a forest" 
-                sizes="(min-width: 800px) calc(100% - 8em)/3, 100%"
+                sizes="(min-width: 800px) calc(100% - 8em)/3, 100vw"
                 srcset="img/tracks-400_med_1x.jpg 400w,
                         img/tracks-800_med_2x.jpg 800w,
                         img/tracks-800_large_1x.jpg 800w,
@@ -95,7 +98,7 @@
         <figure class="feature2">
           <img src="img/duck-400_med_1x.jpg" 
                alt="A duck on a pond" 
-               sizes="(min-width: 800px) calc(100% - 8em)/3, 100%"
+               sizes="(min-width: 800px) calc(100% - 8em)/3, 100vw"
                 srcset="img/duck-400_med_1x.jpg 400w,
                         img/duck-800_med_2x.jpg 800w,
                         img/duck-800_large_1x.jpg 800w,
@@ -106,7 +109,7 @@
         
         <figure class="feature3">
           <img src="img/tree-400_med_1x.jpg" alt="A tree" 
-               sizes="(min-width: 800px) calc(100% - 8em)/3, 100%" srcset="img/tree-400_med_1x.jpg 400w,
+               sizes="(min-width: 800px) calc(100% - 8em)/3, 100vw" srcset="img/tree-400_med_1x.jpg 400w,
                         img/tree-800_med_2x.jpg 800w,
                         img/tree-800_large_1x.jpg 800w,
                         img/tree-1600_large_2x.jpg 1600w" />
@@ -134,15 +137,15 @@
           <a href="https://www.linkedin.com/in/julianjohannesen/" class="entypo-linkedin">LinkedIn</a>
         </li>
       </ul>
-      <section class="site-info">
-        <ul>
-          <li>Sitemap</li>
-          <li>Report Bugs</li>
-          <li>Site Repository</li>
+      
+        <ul class="site-info">
+          <li><a href="" class="entypo-flow-tree">Sitemap</a></li>
+          <li><a href="https://github.com/julianjohannesen/FEND-Project-1/issues" class="entypo-bug">Report Bugs</a></li>
+          <li><a href="https://github.com/julianjohannesen/FEND-Project-1" class="entypo-database">Site Repository</a></li>
         </ul>
-      </section>
+      
       <section class="copyright">
-        Copyright 2018 Julian Johannesen - <a href="" title="copyright">MIT License</a>
+        Copyright 2018 Julian Johannesen - <a href="https://github.com/julianjohannesen/FEND-Project-1/blob/master/LICENSE.txt" title="copyright">MIT License</a>
     </section>
      
     </footer>
