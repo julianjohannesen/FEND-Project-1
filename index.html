@@ -31,19 +31,19 @@
   <div class="wrapper">
 
     <header class="header">
-      <div class="logo" order="1">
+      <div class="logo">
         <img src="img/fixed/Scrabble_letter_J.svg" alt="Scrabble letter J">
         <img src="img/fixed/Scrabble_letter_J.svg" alt="Scrabble letter J">
       </div>
-      <div class="name" order="2">
+      <div class="name">
         <h1>Julian Johannesen</h1>
         <h2>Front-End Developer</h2>
       </div>
 
-      <nav class="hamburger" order="3">
+      <nav class="hamburger">
         <a href="#" title="hamburger menu"></a>
       </nav>
-      <nav id="drawer" class="nav" order="4">
+      <nav id="drawer" class="nav">
         <ul class="nav_list">
           <li class="nav_item">
             <a href="#">Projects</a>
@@ -60,16 +60,17 @@
         </ul>
       </nav>
 
-      <picture class="hero" order"5">
-        <source media="(min-width: 800px)" srcset="img/mountains-800_large_1x.jpg 800w, img/mountains-1600_large_2x.jpg 1600w">
-        <source media="(max-width: 500px)" srcset="img/mountains-800_med_1x.jpg 400w, img/mountains-800_med_2x.jpg 800w">
-        <img src="img/mountains-400_med_1x.jpg" alt="A panoramic view of a lake, forest, and mountain range" srcset="img/mountains-400_med_1x.jpg 400w, img/mountains-800_med_2x.jpg 800w">
+      <picture class="hero">
+        <source media="(min-width: 800px)" sizes=""
+            srcset="img/mountains-800_large_1x.jpg 800w, img/mountains-1600_large_2x.jpg 1600w">
+        <source media="(max-width: 500px)" sizes="" srcset="img/mountains-800_med_1x.jpg 400w, img/mountains-800_med_2x.jpg 800w">
+        <img src="img/mountains-400_med_1x.jpg" alt="A panoramic view of a lake, forest, and mountain range" sizes="" srcset="img/mountains-400_med_1x.jpg 400w, img/mountains-800_med_2x.jpg 800w">
       </picture>
     </header>
 
     <main class="inner-wrapper">
 
-      <section class="quote">
+      <section class="about">
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis architecto dolorem labore id. Ea sit officia
           perferendis, sapiente iste, earum pariatur similique impedit doloribus consequuntur eveniet debitis nobis, eius
           eaque.
@@ -77,46 +78,44 @@
       </section>
 
       <section class="featured">
-        <h2>Featured Work</h2>
+        <h2>Projects</h2>
 
         <figure class="feature1">
-          <picture>
-            <source media="(min-width: 800px)" srcset="img/tracks-800_large_1x.jpg 800w,
-              img/tracks-1600_large_2x.jpg 1600w">
-            <source media="(max-width: 500px)" srcset="img/tracks-800_med_1x.jpg 400w,
-              img/tracks-800_med_2x.jpg 800w">
-            <img src="img/tracks-400_med_1x.jpg" alt="" srcset="img/tracks-400_med_1x.jpg 400w,
-              img/tracks-800_med_2x.jpg 800w">
-          </picture>
+          <img src="img/duck-400_med_1x.jpg" 
+                alt="A duck on a pond" 
+                sizes="(min-width: 800px) calc(100% - 8em)/3, 100%"
+                srcset="img/duck-400_med_1x.jpg 400w,
+                        img/duck-800_med_2x.jpg 800w,
+                        img/duck-800_large_1x.jpg 800w,
+                        img/duck-1600_large_2x.jpg 1600w" />
+          <!-- close img tag -->
           <figcaption>Find My Forest</figcaption>
         </figure>
-
+        
         <figure class="feature2">
-          <picture>
-            <source media="(min-width: 800px)" srcset="img/duck-1600_large_2x.jpg 1600w,
-      img/duck-800_large_1x.jpg 800w">
-            <source media="(max-width: 500px)" srcset="img/duck-800_med_2x.jpg 800w,
-              img/duck-400_med_1x.jpg 400w">
-            <img src="img/duck-400_med_1x.jpg" alt="Duck sitting on pond" srcset="img/duck-400_med_1x.jpg 400w,
-              img/duck-800_med_2x.jpg 800w">
-          </picture>
+          <img src="img/duck-400_med_1x.jpg" 
+               alt="A duck on a pond" 
+               sizes="(min-width: 800px) calc(100% - 8em)/3, 100%"
+                srcset="img/duck-400_med_1x.jpg 400w,
+                        img/duck-800_med_2x.jpg 800w,
+                        img/duck-800_large_1x.jpg 800w,
+                        img/duck-1600_large_2x.jpg 1600w" />
+          <!-- close img tag -->
           <figcaption>Find My Duck</figcaption>
         </figure>
-
+        
         <figure class="feature3">
-          <picture>
-            <source media="(min-width: 800px)" srcset="img/tree-1600_large_2x.jpg 1600w,
-              img/tree-800_large_1x.jpg 800w">
-            <source media="(max-width: 500px)" srcset="img/tree-800_med_2x.jpg 800w,
-      img/tree-400_med_1x.jpg 400w">
-            <img src="img/tree-400_med_1x.jpg" alt="" srcset="img/tree-400_med_1x.jpg 400w,
-              img/tree-800_med_2x.jpg 800w">
-          </picture>
+          <img src="img/tree-400_med_1x.jpg" alt="A tree" 
+               sizes="(min-width: 800px) calc(100% - 8em)/3, 100%" srcset="img/tree-400_med_1x.jpg 400w,
+                        img/tree-800_med_2x.jpg 800w,
+                        img/tree-800_large_1x.jpg 800w,
+                        img/tree-1600_large_2x.jpg 1600w" />
+          <!-- close img tag -->
           <figcaption>Find My Tree</figcaption>
         </figure>
-
-      </section>
-
+        
+        </section>
+        
       <section class="blog">
 
       </section>
@@ -124,15 +123,26 @@
     </main>
 
     <footer>
+      <section class="copyright">
+          Copyright 2018 Julian Johannesen - <a href="" title="copyright">MIT License</a>
+      </section>
+      <section class="site-info">
+        <ul>
+          <li>Sitemap</li>
+          <li>Report Bugs</li>
+          <li>Site Repository</li>
+
+        </ul>
+      </section>
       <ul class="social">
         <li>
-          <a href="#" class="entypo-github">GitHub</a>
+          <a href="https://www.github.com/julianjohannesen" class="entypo-github">GitHub</a>
         </li>
         <li>
-          <a href="#" class="entypo-twitter">Twitter</a>
+          <a href="https://twitter.com/jjeadon" class="entypo-twitter">Twitter</a>
         </li>
         <li>
-          <a href="#" class="entypo-linkedin">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/julianjohannesen/" class="entypo-linkedin">LinkedIn</a>
         </li>
       </ul>
     </footer>
