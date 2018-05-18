@@ -134,7 +134,6 @@ a:hover {
   margin: auto;
   padding: 1.5rem;
   max-width: 100%;
-  min-width: 320px;
 }
 
 .inner-wrapper {
@@ -433,6 +432,7 @@ figcaption {
     font-size: 0;
   }
   .nav {
+    display: none;
     width: 150px;
     height: 100%;
     position: absolute;
@@ -447,6 +447,7 @@ figcaption {
     display: block;
   }
   .open {
+    display: block !important;
     transform: translate(0, 0) !important;
     transition: transform 0.3s ease !important;
   }
