@@ -413,7 +413,7 @@ figcaption {
 }
 
   .hero {
-    max-width: 400px;
+    /* max-width: 400px; */
   }
   .hero img {
     width: 100%;
